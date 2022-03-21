@@ -1,0 +1,85 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 700px;
+  background-image: linear-gradient(to top, transparent 15%, black 105%),
+    url("https://images.pexels.com/photos/7776215/pexels-photo-7776215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+td img {
+  width: 28px;
+  height: 28px;
+  margin-top: 8px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
+input {
+  font-family: "Roboto Mono", monospace;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25));
+  border-radius: 3px;
+}
+
+button {
+  font-family: "Roboto Mono", monospace;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25));
+  border-radius: 3px;
+}
+
+button:focus, button:hover {
+  background-image: linear-gradient(to bottom left, #777, #ddd);
+}
+
+button:active {
+  box-shadow: inset 2px 2px 1px black,
+              inset 2px 3px 5px rgba(0,0,0,0.3),
+              inset -2px -3px 5px rgba(255,255,255,0.5);
+}
